@@ -14,9 +14,9 @@ Assuming that all the coordinates exist on a 2D plane and there is no traffix, f
 2 1 (Coordinate3)<br>
 Output <br>
 9 (Length of Route)</b><br>
-
+<br>
 <h3>Working</h3>
-The script works in this way that at first, it takes all the inputs from the user. Then it sorts the coordinate_list so that the starting and ending coordinates are at the first and last indices of the coordinate_list respectively. Then, a new object is defined which contains the collection of all Permutations of the coordinate_list. The permutated_list is then filtered so that the starting point and Ending point are at the first and last indices, same as the fcoordinate_list. Then, distance is calculated for each permutated_list and is stored in a "Distance_list". Finally, the minimum value from the Distance_list is returned as the <strong>"Shortest Distance"</strong>.
+The script works in this way that at first, it takes all the inputs from the user. Then it sorts the coordinate_list so that the starting and ending coordinates are at the first and last indices of the coordinate_list respectively. Then, a new object is defined which contains the collection of all Permutations of the coordinate_list. The permutated_list is then filtered so that the starting point and Ending point are at the first and last indices, same as the fcoordinate_list. Then, distance is calculated for each permutated_list and is stored in a "Distance_list". Finally, the minimum value from the Distance_list is returned as the <strong>"Shortest Distance"</strong>.<br>
 
 <b>NOTE</b> : The script uses the module "Itertools" for the permutation of the coordinate_list. The module can be easily installed by entering the following command in the terminal:<br>
 <code>pip install itertools</code>

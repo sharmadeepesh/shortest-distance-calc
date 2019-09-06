@@ -28,13 +28,13 @@ def calc_single_distance(new_permutation):
 	for j in range(len(new_permutation)):
 		distance = 0
 		for i in range(len(new_permutation[j])-1):
-			var = new_permutation[j][i].split(" ")
-			char = new_permutation[j][i+1].split(" ")
+			x = new_permutation[j][i].split(" ")
+			y = new_permutation[j][i+1].split(" ")
 			for k in range(2):
-				var[k] = int(var[k])
-				char[k] = int(char[k])
-				if var[k] != char[k]:
-					distance= distance + abs(int(char[k] - var[k]))
+				x[k] = int(x[k])
+				y[k] = int(y[k])
+				if x[k] != y[k]:
+					distance= distance + abs(int(y[k] - x[k]))
 		finalcountlist.append(distance)
 	lowest_distance = min(finalcountlist)
 	print("\n[+] The shortest distance is ",lowest_distance)

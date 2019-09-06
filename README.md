@@ -18,6 +18,6 @@ Output <br>
 <h3>Working</h3>
 The script works in this way that at first, it takes all the inputs from the user. Then it sorts the coordinate_list so that the starting and ending coordinates are at the first and last indices of the coordinate_list respectively. Then, a new object is defined which contains the collection of all Permutations of the coordinate_list. The permutated_list is then filtered so that the starting point and Ending point are at the first and last indices, same as the fcoordinate_list. Then, distance is calculated for each permutated_list and is stored in a "Distance_list". Finally, the minimum value from the Distance_list is returned as the <strong>"Shortest Distance"</strong>.<br>
 
-<b>NOTE</b> : The script uses the module "Itertools" for the permutation of the coordinate_list. The module can be easily installed by entering the following command in the terminal:<br>
+<b>NOTE</b> : The script uses the module "Itertools" for the permutation of the coordinate_list. The module can be easily installed by entering the following command in the terminal:</br>
 <code>pip install itertools</code>
-<br>The route in the question can not be calculated with the Coordinate Geometry's distance formula. The questions says that the bus can only travel along straight lines along axis. For example, to reach from (0 0) to (1 1), the bus will first travel to (1 0) and then to (1 1), covering a distance of 2 units. 
+</br>The route in the question can not be calculated with the Coordinate Geometry's distance formula. The questions says that the bus can only travel along straight lines along axis. For example, to reach from (0 0) to (1 1), the bus will first travel to (1 0) and then to (1 1), covering a distance of 2 units. 
